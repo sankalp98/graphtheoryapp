@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2187D41A24EEF76F00571F72 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2187D41924EEF76E00571F72 /* File.swift */; };
+		CA3DEE2B249634A100C3A25E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3DEE2A249634A100C3A25E /* AppDelegate.swift */; };
+		CA3DEE2D249634A100C3A25E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3DEE2C249634A100C3A25E /* SceneDelegate.swift */; };
+		CA3DEE30249634A200C3A25E /* graphtheoryapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA3DEE2E249634A200C3A25E /* graphtheoryapp.xcdatamodeld */; };
+		CA3DEE32249634A200C3A25E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3DEE31249634A200C3A25E /* ContentView.swift */; };
+		CA3DEE34249634A900C3A25E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA3DEE33249634A900C3A25E /* Assets.xcassets */; };
+		CA3DEE37249634A900C3A25E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA3DEE36249634A900C3A25E /* Preview Assets.xcassets */; };
+		CA3DEE3A249634A900C3A25E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA3DEE38249634A900C3A25E /* LaunchScreen.storyboard */; };
+		CA3DEE45249634AA00C3A25E /* graphtheoryappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3DEE44249634AA00C3A25E /* graphtheoryappTests.swift */; };
+		CA3DEE50249634AA00C3A25E /* graphtheoryappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3DEE4F249634AA00C3A25E /* graphtheoryappUITests.swift */; };
+		CA5BC71F24BCCC38001A556C /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5BC71E24BCCC38001A556C /* Cell.swift */; };
+		CAC6A59124BDAD2B0067B725 /* mainsource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC6A59024BDAD2B0067B725 /* mainsource.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA3DEE41249634AA00C3A25E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA3DEE1F249634A100C3A25E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA3DEE26249634A100C3A25E;
+			remoteInfo = graphtheoryapp;
+		};
+		CA3DEE4C249634AA00C3A25E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA3DEE1F249634A100C3A25E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA3DEE26249634A100C3A25E;
+			remoteInfo = graphtheoryapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2187D41924EEF76E00571F72 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		CA3DEE27249634A100C3A25E /* graphtheoryapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = graphtheoryapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA3DEE2A249634A100C3A25E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA3DEE2C249634A100C3A25E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CA3DEE2F249634A200C3A25E /* graphtheoryapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = graphtheoryapp.xcdatamodel; sourceTree = "<group>"; };
+		CA3DEE31249634A200C3A25E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CA3DEE33249634A900C3A25E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA3DEE36249634A900C3A25E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA3DEE39249634A900C3A25E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA3DEE3B249634A900C3A25E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA3DEE40249634AA00C3A25E /* graphtheoryappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = graphtheoryappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA3DEE44249634AA00C3A25E /* graphtheoryappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = graphtheoryappTests.swift; sourceTree = "<group>"; };
+		CA3DEE46249634AA00C3A25E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA3DEE4B249634AA00C3A25E /* graphtheoryappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = graphtheoryappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA3DEE4F249634AA00C3A25E /* graphtheoryappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = graphtheoryappUITests.swift; sourceTree = "<group>"; };
+		CA3DEE51249634AA00C3A25E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA5BC71E24BCCC38001A556C /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		CAC6A59024BDAD2B0067B725 /* mainsource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainsource.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA3DEE24249634A100C3A25E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3DEE3D249634AA00C3A25E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3DEE48249634AA00C3A25E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA3DEE1E249634A100C3A25E = {
+			isa = PBXGroup;
+			children = (
+				CA3DEE29249634A100C3A25E /* graphtheoryapp */,
+				CA3DEE43249634AA00C3A25E /* graphtheoryappTests */,
+				CA3DEE4E249634AA00C3A25E /* graphtheoryappUITests */,
+				CA3DEE28249634A100C3A25E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA3DEE28249634A100C3A25E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA3DEE27249634A100C3A25E /* graphtheoryapp.app */,
+				CA3DEE40249634AA00C3A25E /* graphtheoryappTests.xctest */,
+				CA3DEE4B249634AA00C3A25E /* graphtheoryappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA3DEE29249634A100C3A25E /* graphtheoryapp */ = {
+			isa = PBXGroup;
+			children = (
+				CA3DEE2A249634A100C3A25E /* AppDelegate.swift */,
+				CA3DEE2C249634A100C3A25E /* SceneDelegate.swift */,
+				CA3DEE31249634A200C3A25E /* ContentView.swift */,
+				CAC6A59024BDAD2B0067B725 /* mainsource.swift */,
+				CA5BC71E24BCCC38001A556C /* Cell.swift */,
+				2187D41924EEF76E00571F72 /* File.swift */,
+				CA3DEE33249634A900C3A25E /* Assets.xcassets */,
+				CA3DEE38249634A900C3A25E /* LaunchScreen.storyboard */,
+				CA3DEE3B249634A900C3A25E /* Info.plist */,
+				CA3DEE2E249634A200C3A25E /* graphtheoryapp.xcdatamodeld */,
+				CA3DEE35249634A900C3A25E /* Preview Content */,
+			);
+			path = graphtheoryapp;
+			sourceTree = "<group>";
+		};
+		CA3DEE35249634A900C3A25E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CA3DEE36249634A900C3A25E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA3DEE43249634AA00C3A25E /* graphtheoryappTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA3DEE44249634AA00C3A25E /* graphtheoryappTests.swift */,
+				CA3DEE46249634AA00C3A25E /* Info.plist */,
+			);
+			path = graphtheoryappTests;
+			sourceTree = "<group>";
+		};
+		CA3DEE4E249634AA00C3A25E /* graphtheoryappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA3DEE4F249634AA00C3A25E /* graphtheoryappUITests.swift */,
+				CA3DEE51249634AA00C3A25E /* Info.plist */,
+			);
+			path = graphtheoryappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA3DEE26249634A100C3A25E /* graphtheoryapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA3DEE54249634AA00C3A25E /* Build configuration list for PBXNativeTarget "graphtheoryapp" */;
+			buildPhases = (
+				CA3DEE23249634A100C3A25E /* Sources */,
+				CA3DEE24249634A100C3A25E /* Frameworks */,
+				CA3DEE25249634A100C3A25E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = graphtheoryapp;
+			productName = graphtheoryapp;
+			productReference = CA3DEE27249634A100C3A25E /* graphtheoryapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA3DEE3F249634AA00C3A25E /* graphtheoryappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA3DEE57249634AA00C3A25E /* Build configuration list for PBXNativeTarget "graphtheoryappTests" */;
+			buildPhases = (
+				CA3DEE3C249634AA00C3A25E /* Sources */,
+				CA3DEE3D249634AA00C3A25E /* Frameworks */,
+				CA3DEE3E249634AA00C3A25E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA3DEE42249634AA00C3A25E /* PBXTargetDependency */,
+			);
+			name = graphtheoryappTests;
+			productName = graphtheoryappTests;
+			productReference = CA3DEE40249634AA00C3A25E /* graphtheoryappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA3DEE4A249634AA00C3A25E /* graphtheoryappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA3DEE5A249634AA00C3A25E /* Build configuration list for PBXNativeTarget "graphtheoryappUITests" */;
+			buildPhases = (
+				CA3DEE47249634AA00C3A25E /* Sources */,
+				CA3DEE48249634AA00C3A25E /* Frameworks */,
+				CA3DEE49249634AA00C3A25E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA3DEE4D249634AA00C3A25E /* PBXTargetDependency */,
+			);
+			name = graphtheoryappUITests;
+			productName = graphtheoryappUITests;
+			productReference = CA3DEE4B249634AA00C3A25E /* graphtheoryappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA3DEE1F249634A100C3A25E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "sankalp kasle";
+				TargetAttributes = {
+					CA3DEE26249634A100C3A25E = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					CA3DEE3F249634AA00C3A25E = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = CA3DEE26249634A100C3A25E;
+					};
+					CA3DEE4A249634AA00C3A25E = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = CA3DEE26249634A100C3A25E;
+					};
+				};
+			};
+			buildConfigurationList = CA3DEE22249634A100C3A25E /* Build configuration list for PBXProject "graphtheoryapp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA3DEE1E249634A100C3A25E;
+			productRefGroup = CA3DEE28249634A100C3A25E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA3DEE26249634A100C3A25E /* graphtheoryapp */,
+				CA3DEE3F249634AA00C3A25E /* graphtheoryappTests */,
+				CA3DEE4A249634AA00C3A25E /* graphtheoryappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA3DEE25249634A100C3A25E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3DEE3A249634A900C3A25E /* LaunchScreen.storyboard in Resources */,
+				CA3DEE37249634A900C3A25E /* Preview Assets.xcassets in Resources */,
+				CA3DEE34249634A900C3A25E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3DEE3E249634AA00C3A25E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3DEE49249634AA00C3A25E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA3DEE23249634A100C3A25E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3DEE2B249634A100C3A25E /* AppDelegate.swift in Sources */,
+				CA3DEE2D249634A100C3A25E /* SceneDelegate.swift in Sources */,
+				2187D41A24EEF76F00571F72 /* File.swift in Sources */,
+				CA5BC71F24BCCC38001A556C /* Cell.swift in Sources */,
+				CAC6A59124BDAD2B0067B725 /* mainsource.swift in Sources */,
+				CA3DEE32249634A200C3A25E /* ContentView.swift in Sources */,
+				CA3DEE30249634A200C3A25E /* graphtheoryapp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3DEE3C249634AA00C3A25E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3DEE45249634AA00C3A25E /* graphtheoryappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3DEE47249634AA00C3A25E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3DEE50249634AA00C3A25E /* graphtheoryappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA3DEE42249634AA00C3A25E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA3DEE26249634A100C3A25E /* graphtheoryapp */;
+			targetProxy = CA3DEE41249634AA00C3A25E /* PBXContainerItemProxy */;
+		};
+		CA3DEE4D249634AA00C3A25E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA3DEE26249634A100C3A25E /* graphtheoryapp */;
+			targetProxy = CA3DEE4C249634AA00C3A25E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA3DEE38249634A900C3A25E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA3DEE39249634A900C3A25E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA3DEE52249634AA00C3A25E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA3DEE53249634AA00C3A25E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA3DEE55249634AA00C3A25E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"graphtheoryapp/Preview Content\"";
+				DEVELOPMENT_TEAM = 59D9BS4C23;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = graphtheoryapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyz.graphtheoryapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA3DEE56249634AA00C3A25E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"graphtheoryapp/Preview Content\"";
+				DEVELOPMENT_TEAM = 59D9BS4C23;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = graphtheoryapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyz.graphtheoryapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA3DEE58249634AA00C3A25E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59D9BS4C23;
+				INFOPLIST_FILE = graphtheoryappTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyz.graphtheoryappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/graphtheoryapp.app/graphtheoryapp";
+			};
+			name = Debug;
+		};
+		CA3DEE59249634AA00C3A25E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59D9BS4C23;
+				INFOPLIST_FILE = graphtheoryappTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyz.graphtheoryappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/graphtheoryapp.app/graphtheoryapp";
+			};
+			name = Release;
+		};
+		CA3DEE5B249634AA00C3A25E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59D9BS4C23;
+				INFOPLIST_FILE = graphtheoryappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyz.graphtheoryappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = graphtheoryapp;
+			};
+			name = Debug;
+		};
+		CA3DEE5C249634AA00C3A25E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59D9BS4C23;
+				INFOPLIST_FILE = graphtheoryappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyz.graphtheoryappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = graphtheoryapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA3DEE22249634A100C3A25E /* Build configuration list for PBXProject "graphtheoryapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA3DEE52249634AA00C3A25E /* Debug */,
+				CA3DEE53249634AA00C3A25E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA3DEE54249634AA00C3A25E /* Build configuration list for PBXNativeTarget "graphtheoryapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA3DEE55249634AA00C3A25E /* Debug */,
+				CA3DEE56249634AA00C3A25E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA3DEE57249634AA00C3A25E /* Build configuration list for PBXNativeTarget "graphtheoryappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA3DEE58249634AA00C3A25E /* Debug */,
+				CA3DEE59249634AA00C3A25E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA3DEE5A249634AA00C3A25E /* Build configuration list for PBXNativeTarget "graphtheoryappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA3DEE5B249634AA00C3A25E /* Debug */,
+				CA3DEE5C249634AA00C3A25E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CA3DEE2E249634A200C3A25E /* graphtheoryapp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CA3DEE2F249634A200C3A25E /* graphtheoryapp.xcdatamodel */,
+			);
+			currentVersion = CA3DEE2F249634A200C3A25E /* graphtheoryapp.xcdatamodel */;
+			path = graphtheoryapp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CA3DEE1F249634A100C3A25E /* Project object */;
+}
